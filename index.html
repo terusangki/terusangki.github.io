@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title> Gavin Joo </title>
+    <title>Gavin Joo</title>
     <style>
         body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 60px auto; padding: 20px; color: #333; background-color: #fff; }
         
@@ -15,9 +15,10 @@
         h1 { font-size: 2.8em; margin: 0 0 20px 0; }
         h2 { border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 50px; font-size: 1.8em; }
         
-        .links { margin: 20px 0; font-size: 1.1em; }
-        .links a { color: #0077cc; text-decoration: none; margin-right: 15px; }
-        .links a:hover { text-decoration: underline; }
+        /* 링크 섹션: 이탤릭체 및 구분선 스타일 */
+        .links { margin: 20px 0; font-size: 1.1em; color: #555; }
+        .links a { color: #664433; text-decoration: none; padding: 0 5px; font-style: italic; }
+        .links a:hover { text-decoration: underline; background-color: #f5f5f5; }
 
         /* 논문/프로젝트 리스트 스타일 */
         .pub-item { display: flex; margin-bottom: 30px; background: #fffdf0; padding: 15px; border: 1px solid #f9f2c4; border-radius: 4px; }
@@ -27,38 +28,47 @@
         .pub-title { font-weight: bold; color: #0077cc; font-size: 1.1em; display: block; margin-bottom: 5px; }
         .pub-authors { font-size: 0.95em; margin-bottom: 5px; }
         .pub-venue { font-style: italic; color: #555; margin-bottom: 8px; }
-        .pub-links a { font-size: 0.9em; color: #0077cc; text-decoration: none; margin-right: 10px; }
+        .pub-links a { font-size: 0.9em; color: #0077cc; text-decoration: none; margin-right: 10px; font-style: normal; }
     </style>
 </head>
 <body>
 
     <section class="header">
         <div class="header-text">
-            <h1>주가빈 (Zookavin)</h1>
+            <h1>Gavin Joo</h1>
             <p>
-                저는 중앙대학교 예술공학부 학부 연구생으로, Large Language Models(LLMs)와 3D 캐릭터 모델링에 관심을 가지고 연구하고 있습니다. <br>
-                현재 손봉수 교수님 지도 하에 AI 연구를 수행 중이며, 비디오 프로세싱 및 데이터 정제 프로젝트를 경험했습니다.
+                I am an Undergraduate Research Student in the <strong>Department of Arts & Technology, Computer Science & Engineering</strong> at <strong>Chung-Ang University (CAU)</strong>, where I am fortunate to be advised by <strong>Prof. Bong-soo Sohn</strong>. My research interests lie in <strong>Computer Vision</strong>, <strong>Action Recognition</strong>, and <strong>Multimodal Learning</strong>, particularly focused on video data refinement and Large Language Models (LLMs).
             </p>
+
+            <p>
+                I expect to complete my B.S. in August 2027. <br>
+                My CV is available upon request.
+            </p>
+            
             <div class="links">
-                <a href="mailto:이메일주소">Email</a> / 
-                <a href="#">Google Scholar</a> / 
-                <a href="https://github.com/terusangki">GitHub</a>
+                [ 
+                <a href="mailto:zookavin@naver.com">Email1</a> 
+                <a href="mailto:joogabini@cau.ac.kr">Email2</a> / 
+                <a href="https://github.com/terusangki">GitHub</a> / 
+                <a href="https://www.linkedin.com/in/gavin-joo-7bab793a3/">LinkedIn</a> / 
+                <a href="#">CV</a> 
+                ]
             </div>
         </div>
+        
         <div class="header-photo">
-            <!-- 가빈님 사진이 있다면 profile.jpg로 저장소에 올리고 주소 수정 -->
+            <!-- 가빈님 사진이 있다면 profile.jpg로 저장소에 올리고 주소 수정하시긔 -->
             <img src="https://via.placeholder.com/220x280" alt="Profile Photo">
         </div>
     </section>
 
     <h2>Education</h2>
     <ul>
-        <li><strong>B.S. in Arts & Engineering</strong>, CSE</strong>, Chung-Ang University (2021 - Present)</li>
+        <li><strong>B.S. in Arts & Technology, Computer Science & Engineering</strong>, Chung-Ang University (2021 - Present)</li>
     </ul>
 
     <h2>Publications & Projects</h2>
     
-    <!-- 아이템 하나 시작 -->
     <div class="pub-item">
         <div class="pub-img">
             <img src="https://via.placeholder.com/150x100" alt="Project Thumbnail">
@@ -72,7 +82,6 @@
             </div>
         </div>
     </div>
-    <!-- 아이템 하나 끝 -->
 
 </body>
 </html>
